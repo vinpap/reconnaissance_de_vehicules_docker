@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+joblib
+pylint
+pydantic
+pytest
+coverage
+pandas
+numpy
+scikit-learn
