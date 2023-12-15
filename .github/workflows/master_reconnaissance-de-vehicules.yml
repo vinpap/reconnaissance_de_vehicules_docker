@@ -38,7 +38,7 @@ jobs:
           pipenv install --system --deploy --ignore-pipfile
         # Run the tests
       - name: Run tests
-        run: python -m pytest tests
+        run: pipenv run python -m pytest tests
   build:
     runs-on: 'ubuntu-latest'
     needs: 'test'
