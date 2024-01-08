@@ -1,7 +1,7 @@
 import requests
 
 url_local = "http://0.0.0.0:8000/predict"
-url_azure = "https://reconnaissance-de-vehicules.azurewebsites.net/predict"
+url_azure = "https://apivincent.azurewebsites.net/predict"
 
 
 headers = {
